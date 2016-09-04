@@ -8,4 +8,4 @@ De folder [opgaven](opgaven) staat de code die bij de opdrachtkaarten hoort. Lee
 
 In de folder [extra](extra) staat een programma dat een reusachtige klok in de Minecraft wereld bouwt.
 
-Voor deze workshop is gebruikt gemaakt van het boek [http://eu.wiley.com/WileyCDA/WileyTitle/productCd-111894691X.html](Adventures in Minecraft) voor de Minecraft server installatie en het gratis boek [https://arghbox.wordpress.com/2014/04/25/minecraft-pi-recipe-cards/](Python Programming with Minecraft Pi) voor de opgaven.
+Voor deze workshop is gebruikt gemaakt van het boek [Adventures in Minecraft](http://eu.wiley.com/WileyCDA/WileyTitle/productCd-111894691X.html) voor de Minecraft server installatie en het gratis boek [Python Programming with Minecraft Pi](https://arghbox.wordpress.com/2014/04/25/minecraft-pi-recipe-cards/) voor de opgaven.
