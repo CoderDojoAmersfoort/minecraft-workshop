@@ -1,0 +1,21 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant::Config.run do |config|
+
+  config.vm.define :minecraft do |minecraft_config|
+    minecraft_config.vm.box = "ubuntu/trusty64"
+    minecraft_config.vm.network(:hostonly, "10.1.0.100")
+    minecraft_config.vm.share_folder("files", "/files", "./files")
+    minecraft_config.vm.share_folder("opgaven", "/opgaven", "../opgaven")
+    minecraft_config.vm.share_folder("extra", "/extra", "../extra")
+
+    # Enable the Puppet provisioner
+    minecraft_config.vm.provision :puppet do |puppet|
+      puppet.manifest_file = "minecraft.pp"
+      #puppet.manifests_path = "puppet/manifests"
+      #puppet.module_path = "puppet/modules"
+    end
+  end
+
+end
